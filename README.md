@@ -23,21 +23,21 @@ This project covers:
    - Convert labels to one-hot encoded vectors using to_categorical for classification.
 
 3. Model Architecture
-  - We use a fully connected neural network
+   - We use a fully connected neural network
 
 4. Training
-  The model is compiled using:
+   The model is compiled using:
 
-  - Loss: CategoricalCrossentropy
+   - Loss: CategoricalCrossentropy
 
-  - Optimizer: Adam
+   - Optimizer: Adam
 
-  - Metric: CategoricalAccuracy
+   - Metric: CategoricalAccuracy
 
-  * Training is performed over 50 epochs with a batch size of 50 and 20% of training data used for validation. *
+   * Training is performed over 50 epochs with a batch size of 50 and 20% of training data used for validation. *
 
 5. Evaluation and Prediction
-  - We evaluate the model on the test set, make predictions, and visualize the results with the predicted and true labels.
+   - We evaluate the model on the test set, make predictions, and visualize the results with the predicted and true labels.
 
 ## Requirements
-  pip install -r requirements.txt
+   - pip install -r requirements.txt
