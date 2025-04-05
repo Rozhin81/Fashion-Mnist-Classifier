@@ -16,11 +16,11 @@ This project covers:
 ## How It Works
 
 1. Data Loading and Visualization
-&nbsp;&nbsp;&nbsp;&nbsp;- We load the dataset using keras.datasets.fashion_mnist, print its shape, and visualize a sample image to understand the structure.
+   - We load the dataset using keras.datasets.fashion_mnist, print its shape, and visualize a sample image to understand the structure.
 
 3. Data Preprocessing
-  &nbsp;&nbsp;&nbsp;&nbsp;- Normalize pixel values to the range [0, 1] to help the model converge faster.
-  &nbsp;&nbsp;&nbsp;&nbsp;- Convert labels to one-hot encoded vectors using to_categorical for classification.
+   - Normalize pixel values to the range [0, 1] to help the model converge faster.
+   - Convert labels to one-hot encoded vectors using to_categorical for classification.
 
 3. Model Architecture
   - We use a fully connected neural network
