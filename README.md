@@ -16,7 +16,7 @@ This project covers:
 ## How It Works
 
 1. Data Loading and Visualization
-``` - We load the dataset using keras.datasets.fashion_mnist, print its shape, and visualize a sample image to understand the structure. ```
+&nbsp;&nbsp;&nbsp;&nbsp;- We load the dataset using keras.datasets.fashion_mnist, print its shape, and visualize a sample image to understand the structure.
 
 3. Data Preprocessing
   - Normalize pixel values to the range [0, 1] to help the model converge faster.
