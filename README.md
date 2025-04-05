@@ -34,7 +34,7 @@ This project covers:
 
    - Metric: CategoricalAccuracy
 
-   * Training is performed over 50 epochs with a batch size of 50 and 20% of training data used for validation. *
+   _Training is performed over 50 epochs with a batch size of 50 and 20% of training data used for validation._
 
 5. Evaluation and Prediction
    - We evaluate the model on the test set, make predictions, and visualize the results with the predicted and true labels.
